@@ -1,0 +1,42 @@
+.table-section {
+  margin-top: 50px;
+}
+.section-dashboard{
+  width: 70%;
+  margin: 86px auto;
+}
+
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0,  0.2), 0px 24px 38px 3px rgba(0, 0, 0,   0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  max-height: calc(100% - 96px);
+  padding: 24px 24px 20px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.edit-header {
+  margin: 12px 6px 28px 6px;
+}
+
+.dialog-btn {
+  display: inline;
+  margin-right: 14px;
+}
+
+.dialog-btn-container {
+  margin: 32px 6px 12px 6px;
+}

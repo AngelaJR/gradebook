@@ -1,0 +1,24 @@
+.main-dash{
+  margin: 50px 100px;
+}
+
+.dashboard-header {
+  margin-left: 55px;
+}
+
+.dashboard-header h1, .dashboard-header p{
+  margin: 0;
+}
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  text-align: center;
+  flex: 1;
+  width: 300px;
+  /* height:300px; */
+  margin: 20px 20px;
+}

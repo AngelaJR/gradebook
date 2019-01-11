@@ -1,0 +1,14 @@
+.grade-menu {
+  background: #0097A7 !important;
+  color: white !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.grade-menu span {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.material-icons {
+  margin-left: 32px;
+}

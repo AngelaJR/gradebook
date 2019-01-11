@@ -1,0 +1,18 @@
+.header-container{
+  background: #0097A7;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.header-title {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0;
+  color: white;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header-title:hover {
+  cursor: pointer;
+  color: black;
+}

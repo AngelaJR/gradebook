@@ -1,0 +1,14 @@
+.sections-menu {
+  background: #0097A7 !important;
+  color: white !important;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.sections-menu span {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.material-icons {
+  margin-left: 32px;
+}
