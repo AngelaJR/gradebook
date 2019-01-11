@@ -20,10 +20,10 @@ const queryHelper = require('./util/queryHelper');
 // First you need to create a connection to the db
 const con = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'root',
+  user: '****',
+  password: '***',
   database: 'gradebook',
-  port: '8889',
+  port: '***',
 });
 
 const bodyParser = require('body-parser');
