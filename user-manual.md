@@ -1,4 +1,4 @@
-###Abstract
+### Abstract
 
 This Senior Project was created specifically for Jeffrey Thomas an
 elementary school music teacher in the Hagerstown area. The interactive
@@ -10,7 +10,7 @@ and orderly way. Additionally, the application allows the instructor to
 visually see the progress over time of each student by using a linear
 graph to illustrate a student's grades over the period of a semester.
 
-###Problem Description
+### Problem Description
 The Interactive Gradebook idea came from asking a current faculty
 teacher in an elementary school what he would whish he could create in
 order to make his job more efficient. After having a few conversation a
@@ -48,7 +48,7 @@ have three main features:
     each section and all the score based on each student.
 
 
-###User Manual
+### User Manual
 
 1.  Currently, since the application is not live in order for the user
     to access the application, he must use the terminal and type npm
@@ -104,47 +104,47 @@ have three main features:
        ![](app/images/sectio-tab-bar-screenshot.png)
         
 
-c.  **Add**: If a user wants to add a section, then the icon plus
-    ![](app/images/plus-icon.png) must be clicked. A dialog will open,
-    and the user must fill the information needed in order to add a new
-    section.
+    c.  **Add**: If a user wants to add a section, then the icon plus
+        ![](app/images/plus-icon.png) must be clicked. A dialog will open,
+        and the user must fill the information needed in order to add a new
+        section.
 
-   ![](app/images/add-section-screenshot.png)
+       ![](app/images/add-section-screenshot.png)
 
-d.  **Edit**: Next to each section there is a pencil icon
-    ![](app/images/edit-icon.png) , this allows the user to edit the
-    section. Once the pencil is clicked then a dialog opens so the user
-    can edit the name, term, or year of the selected section.
+    d.  **Edit**: Next to each section there is a pencil icon
+        ![](app/images/edit-icon.png) , this allows the user to edit the
+        section. Once the pencil is clicked then a dialog opens so the user
+        can edit the name, term, or year of the selected section.
 
-   ![](app/images/edit-section-screenshot.png)
+       ![](app/images/edit-section-screenshot.png)
     
-e.  **Delete**: If a user desires to delete a section, he only need to
-    click on the trash icon
-    ![](app/images/delete-icon.png) next to the pencil to delete the
-    section. Before the section is delete, the application will prompt
-    the user to verify the deletion of the section. Once a section is
-    deleted, all the information within that section will be lost.
+    e.  **Delete**: If a user desires to delete a section, he only need to
+        click on the trash icon
+        ![](app/images/delete-icon.png) next to the pencil to delete the
+        section. Before the section is delete, the application will prompt
+        the user to verify the deletion of the section. Once a section is
+        deleted, all the information within that section will be lost.
 
-   ![](app/images/delete-section-screenshot.png)
+       ![](app/images/delete-section-screenshot.png)
 
-f.  **Change Grade-level**: If the user desired to select a different
-    grade-level, then the drop-down menu can be used to change it.
+    f.  **Change Grade-level**: If the user desired to select a different
+        grade-level, then the drop-down menu can be used to change it.
 
-   ![](app/images/drop-down-grade-level.png)
+       ![](app/images/drop-down-grade-level.png)
 
-1.  **Student Component**: If the user clicks on a section, then the
+5.  **Student Component**: If the user clicks on a section, then the
     application will render the Student Component. This component is in
     charge of displaying the list of students who are in the chosen
     sections. Each student row is clickable. The Student Component
     allows the user to do five different things:
 
-    g.  The Student Component retrieves data from the database and
+    a.  The Student Component retrieves data from the database and
         displays the lists of students within the section. Each student
         has a first name, last name, and id.
 
        ![](app/images/student-table-schreenshot.png)
 
-    h.  **Add**: If a user wants to add a new student to the section,
+    b.  **Add**: If a user wants to add a new student to the section,
         then the icon plus
         ![](app/images/plus-icon.png) must be clicked. A dialog will
         open, and the user must fill the information needed in order to
@@ -152,34 +152,34 @@ f.  **Change Grade-level**: If the user desired to select a different
 
        ![](app/images/add-student-screenshot.png)
 
-    i.  **Edit**: Next to each student there is a pencil icon
+    c.  **Edit**: Next to each student there is a pencil icon
         ![](app/images/edit-icon.png), this allows the user to edit
         the student. Once the pencil is clicked a dialog opens allowing
         the user to edit the first name, or last name.
 
        ![](app/images/edit-student-screenshot.png)
 
-j.  **Delete**: To delete a student the trash icon
-    ![](app/images/delete-icon.png) next to the pencil icon must be
-    clicked. Before the student is delete, the application will prompt
-    the user to verify the deletion of the student. Once a student is
-    deleted, all the information within that student will be lost.
+    d.  **Delete**: To delete a student the trash icon
+        ![](app/images/delete-icon.png) next to the pencil icon must be
+        clicked. Before the student is delete, the application will prompt
+        the user to verify the deletion of the student. Once a student is
+        deleted, all the information within that student will be lost.
 
-   ![](app/images/delete-student-screenshot.png)
+       ![](app/images/delete-student-screenshot.png)
 
-k.  **Change Grade-level**: If the user desired to select a different
-    grade-level, then the drop-down menu can be used to change it.
+    e.  **Change Grade-level**: If the user desired to select a different
+        grade-level, then the drop-down menu can be used to change it.
 
-   ![](app/images/drop-down-grade-level.png)
+       ![](app/images/drop-down-grade-level.png)
 
-2.  **Student Data Component**: After a student is selected the
+5.  **Student Data Component**: After a student is selected the
     application will render the Student Data Component. This component
     allows the user to see a linear graph (visualization of student's
     scores over time-), and the raw data (a table with the scores).
 
     The Student Data Component allows the user to multiple things:
 
-    l.  **Raw Data/Graphed Data**: The user can pick between a viewing
+    a.  **Raw Data/Graphed Data**: The user can pick between a viewing
         the raw data or the linear graph. If the user wants to see the
         raw data, then the tab Raw Data must be clicked; but if the user
         wants to see the graph sections then the Graph tab must be
@@ -187,13 +187,13 @@ k.  **Change Grade-level**: If the user desired to select a different
 
        ![](app/images/student-data-tab-screenshot.png)
 
-    m.  **Raw Data**: If the user clicks Raw Data then the application
+    b.  **Raw Data**: If the user clicks Raw Data then the application
         will render a table with all the student's scores. It is
         organized based on the date the scores were added.
 
        ![](app/images/raw-data-screenshot.png)
 
-    n.  **Raw Data-Delete**: The trash icon
+    c.  **Raw Data-Delete**: The trash icon
         ![](app/images/delete-icon.png) can be used to delete scores of
         based on a date. The user must click on the icon and before the
         date is delete, the application will prompt the user to verify
@@ -202,7 +202,7 @@ k.  **Change Grade-level**: If the user desired to select a different
 
        ![](app/images/delete-raw-data-screenshot.png)
 
-    o.  **Raw Data-Add/Edit**: To edit or add a score the user must
+    d.  **Raw Data-Add/Edit**: To edit or add a score the user must
         click on the plus icon
         ![](mapp/images/plus-icon.png). Once its clicked, then a dialog
         will open so the user can add or edit a score based on the date
@@ -225,7 +225,7 @@ k.  **Change Grade-level**: If the user desired to select a different
 
        ![](app/images/pick-grade-screenshot.png)
 
-    p.  **Graph**: If the user clicks Graph, then the application will
+    e.  **Graph**: If the user clicks Graph, then the application will
         render a linear graph with all the student's scores. The x-axis
         of the graph is the date in which a student was graded, and the
         y-axis is the scores. Each line in the graph represents a
@@ -239,7 +239,7 @@ k.  **Change Grade-level**: If the user desired to select a different
 
        ![](mapp/images/graph-lables-screenshot.png)
 
-    q.  **Graph-Add/Edit**: Next to the graph there is a container that
+    g.  **Graph-Add/Edit**: Next to the graph there is a container that
         allows the user to edit or add a score. In order to add a new
         score to the database and the graph. The user must select a new
         standard by clicking on the drop-down menu. After clicking the
@@ -266,5 +266,5 @@ k.  **Change Grade-level**: If the user desired to select a different
 
        ![](app/images/absent-screenshot.png)
 
-3.  **Back to Home**: To go back to the home page just clicked on the
+6.  **Back to Home**: To go back to the home page just clicked on the
     logo located in the header. ![](app/images/logo.png)
