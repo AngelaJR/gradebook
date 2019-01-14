@@ -211,7 +211,7 @@ have three main features:
        i.  To pick a standard the standard drop-down menu must be click
            and the user must pick between the four standards.
 
-       ![](app/images/pick-standard-screenshot.png
+       ![](app/images/pick-standard-screenshot.png)
 
        ii. To pick a date the date input must be selected. The user can
            pick any date. The application uses the current date as
@@ -226,11 +226,11 @@ have three main features:
        ![](app/images/pick-grade-screenshot.png)
 
     e.  **Graph**: If the user clicks Graph, then the application will
-        render a linear graph with all the student's scores. The x-axis
-        of the graph is the date in which a student was graded, and the
-        y-axis is the scores. Each line in the graph represents a
-        standard. Purple for Respond, Orange for Perform, Green for
-        Create, and Blue for Connect.
+          render a linear graph with all the student's scores. The x-axis
+          of the graph is the date in which a student was graded, and the
+          y-axis is the scores. Each line in the graph represents a
+          standard. Purple for Respond, Orange for Perform, Green for
+          Create, and Blue for Connect.
 
        ![](app/images/graph-screenshot.png)
 
@@ -240,14 +240,14 @@ have three main features:
        ![](mapp/images/graph-lables-screenshot.png)
 
     g.  **Graph-Add/Edit**: Next to the graph there is a container that
-        allows the user to edit or add a score. In order to add a new
-        score to the database and the graph. The user must select a new
-        standard by clicking on the drop-down menu. After clicking the
-        standard, the user must pick a date, and ultimately the user
-        must select the score between 1, 2, 3, 4, or Absent. Once the
-        scored is selected and the user clicks submit. The score will be
-        added to the grade book and a new line will be displayed on the
-        graph.
+          allows the user to edit or add a score. In order to add a new
+          score to the database and the graph. The user must select a new
+          standard by clicking on the drop-down menu. After clicking the
+          standard, the user must pick a date, and ultimately the user
+          must select the score between 1, 2, 3, 4, or Absent. Once the
+          scored is selected and the user clicks submit. The score will be
+          added to the grade book and a new line will be displayed on the
+          graph.
 
        iv. To pick a standard the standard drop-down menu must be click
            and the user must pick between the four standards.
