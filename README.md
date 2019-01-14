@@ -1,6 +1,6 @@
 # ONLINE GRADEBOOK
 
-![image](https://drive.google.com/uc?export=view&id=1913oZeBZPBNiUuk8gu3ZSbLBA2l_VQtG)
+![](app/images/gradebook2.png)
 
 This Senior Project was created for an elementary school music teacher. The interactive GradeBook is a web-based application design to keep track and record student’s grades over an unlimited period of time. The application is intended to be a user-friendly application, very similar to spreadsheets in which the instructor can keep his student’s scores in an effective and orderly way. Additionally, the application allows the instructor to visually see the progress over time of each student by using a linear graph to illustrate a student’s grades over the period of a semester.
 
